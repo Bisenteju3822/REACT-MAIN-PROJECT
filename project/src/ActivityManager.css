@@ -1,0 +1,122 @@
+/* Container styles to center the ActivityManager */
+.activity-manager-container {
+  margin-left: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Full viewport height for vertical centering */
+}
+
+.activity-manager {
+  max-width: 600px;
+  /* Reduced width for smaller size */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title styling */
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Form styling */
+.activity-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  /* Full width form */
+}
+
+.activity-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.activity-form input,
+.activity-form textarea,
+.activity-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Styling buttons */
+.activity-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.activity-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling the list of activities */
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Styling each activity detail */
+.activity-detail {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.activity-detail p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.activity-detail button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.activity-detail .edit-button {
+  background-color: #ffc107;
+  color: white;
+}
+
+.activity-detail .edit-button:hover {
+  background-color: #d39e00;
+}
+
+.activity-detail .delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.activity-detail .delete-button:hover {
+  background-color: #c82333;
+}

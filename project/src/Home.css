@@ -1,0 +1,257 @@
+body {
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7da;
+  /* Light grey background color for better contrast */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
+}
+
+.container {
+  margin-top: 60px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.booking-form h1 {
+  margin-top: 15px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.bookings-list {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form-img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.form-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.form-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.content h2 {
+  color: #4CAF50;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+form input,
+form button {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+form button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.cities-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Four cards per row */
+  gap: 70px;
+  /* Increased gap between the cards */
+  padding: 0 20px;
+  /* Add padding to sides */
+}
+
+.cities-list h1 {
+  align-items: center;
+}
+
+.booking-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 20px;
+}
+
+.booking-card:hover {
+  transform: translateY(-10px);
+  /* Hover effect to move the card up */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  /* More animated box shadow on hover */
+}
+
+.booking-card img {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.booking-card h3 {
+  color: #007BFF;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.booking-card p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* New heading style */
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* Match the body font */
+  font-size: 2.5rem;
+  /* New color */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  /* Add some margin on top */
+}
+
+/* Slider styles */
+.slider {
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.slider h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.slider-inner {
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slide {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.slide.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.promotion-card {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  background-color: #fff;
+}
+
+.promotion-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.promotion-info {
+  padding: 15px;
+}
+
+.promotion-info h3 {
+  color: #007BFF;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.promotion-info p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}

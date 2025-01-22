@@ -1,0 +1,28 @@
+{
+  "activityDetails": [
+    {
+      "id": "1",
+      "activity": "Hiking",
+      "description": "A fun hike in the mountains.",
+      "duration": "3 hours",
+      "itemsToBring": "Water, Snacks, Hiking boots",
+      "price": 500
+    },
+    {
+      "id": "2",
+      "activity": "Yoga",
+      "description": "A relaxing yoga session.",
+      "duration": "1 hour",
+      "itemsToBring": "Yoga mat, Towel, Water",
+      "price": 300
+    },
+    {
+      "id": "6857",
+      "activity": "Guided Tours",
+      "description": "An immersive tour of Urban Retreat's historical landmarks and nature trails.",
+      "duration": "2 hours",
+      "itemsToBring": "Comfortable shoes, water bottle, sunscreen",
+      "price": "666"
+    }
+  ]
+}

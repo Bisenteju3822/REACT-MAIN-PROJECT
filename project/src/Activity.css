@@ -1,0 +1,60 @@
+.activity-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.activity-details h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.activity {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  display: inline-block;
+  width: calc(50% - 40px);
+  /* Ensures two cards fit per row with spacing */
+  margin: 10px;
+}
+
+.activity h3 {
+  color: #4CAF50;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.activity p {
+  color: #555;
+  font-family: Arial, sans-serif;
+  font-size: large;
+}
+
+.activity-image {
+  width: 80%;
+  /* Reduce image size */
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.price {
+  color: #E91E63;
+  font-weight: bold;
+}
+
+.book-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}

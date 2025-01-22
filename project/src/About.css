@@ -1,0 +1,62 @@
+/* src/pages/About.css */
+
+.about-container {
+  padding: 20px;
+  font-family: 'Arial, sans-serif';
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-header h1 {
+  font-size: 4rem;
+  color: #8125ab;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about-header p {
+  font-size: 2.3rem;
+  color: #130303;
+  font-weight: bold;
+
+
+
+
+
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.about-image {
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  width: 45%;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 1rem;
+}
+
+.about-text ul {
+  padding-left: 20px;
+}

@@ -1,0 +1,42 @@
+/* Footer.css */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root {
+  flex: 1;
+}
+
+.footer-custom {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+h5 {
+  color: #f0ad4e;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f0ad4e;
+}
